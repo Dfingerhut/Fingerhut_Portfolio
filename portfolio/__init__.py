@@ -10,7 +10,24 @@ projects = [
         "categories": ["python", "web"],
         "slug": "habit-tracking",
         "prod": "https://deploy-habit-tracker-f04ab8cc5a90.herokuapp.com/"
+    },
+    {
+        "name": "Zillow Web Scraping with Beautiful Soup, NumPy, Pandas",
+        "thumb": "img/houses.jpg",
+        "hero": "img/ZillowGraph.png",
+        "categories": ["python", "web"],
+        "slug": "zillow_web_scraping",
+        "prod": "https://github.com/Dfingerhut/ZillowDataProject"
+    },
+    {
+        "name": "Indeed Web Scraping with Beautiful Soup, NumPy, Pandas",
+        "thumb": "img/datascience.webp",
+        "hero": "img/datascience-header.png",
+        "categories": ["python", "web"],
+        "slug": "indeed_web_scraping",
+        "prod": "https://github.com/Dfingerhut/JobWebscraper"
     }
+
 ]
 
 slug_to_project = {project["slug"]: project for project in projects}
