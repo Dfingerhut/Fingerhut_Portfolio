@@ -13,7 +13,7 @@ projects = [
     },
     {
         "name": "Zillow Web Scraping with Beautiful Soup, NumPy, Pandas",
-        "thumb": "img/houses.jpg",
+        "thumb": "img/Houses.jpg",
         "hero": "img/ZillowGraph.png",
         "categories": ["python", "web"],
         "slug": "zillow_web_scraping",
