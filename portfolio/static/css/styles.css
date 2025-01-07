@@ -5,37 +5,44 @@
 }
 
 html {
-  font-family: Lato, "sans-serif";
+  font-family: Poppins, "sans-serif";
 }
 
 body {
-  margin-top: 80px;
+  margin-top: 30px;
   background-color: #181419;
 }
 
-.header {
-  text-align: center;
-  color: #f4f6f6;
-}
-
-
 .nav {
+  display: flex;
+  justify-content: right; 
   margin-bottom: 3rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .nav__link {
   text-decoration: none;
   color: #f4f6f6;
-}
-
-.nav__link:not(:last-of-type) {
-  margin-right: 2.5rem;
+  font-weight: normal;
 }
 
 .nav__link--active,
 .nav__link:hover {
   font-weight: bold;
+}
+
+.nav__link {
+  margin-right: 2.5rem;
+}
+
+.nav__link:last-of-type {
+  margin-right: 4rem;
+}
+
+.header__name {
+  text-align: center;
+  color: #f4f6f6;
+  font-size: 2rem;
 }
 
 .main {
@@ -75,6 +82,15 @@ body {
 
 .contact__link:hover {
   color: #007941;
+}
+
+.header__into {
+  text-align: center;
+  color: #f4f6f6;
+  width: 100%;
+  text-align: center; 
+  font-size: 1.2rem;
+  font-weight: normal;
 }
 
 .projects {
