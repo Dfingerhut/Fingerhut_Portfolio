@@ -3,7 +3,7 @@
 {% block content %}
 
 <h1 class="header__into">
-   Hello! I'm an analytics professional experienced in backend web development, business intelligence, and implementing end to end data solutions across the manufacturing, healthcare, and consumer tech industries. Please explore the site to learn more!
+   I'm an analytics professional experienced in backend web development, business intelligence, and implementing end to end data solutions across the manufacturing, healthcare, and consumer tech industries. Please explore the site to learn more!
 </h1>
 <h2 class = "header__skills">
     <a class="header__skill"> PYTHON </a>
@@ -20,12 +20,12 @@
                          alt="{{ project['name'] }} hero image" 
                     />
                     <header class="project-card__meta">
+                        <h2 class="project-card__name">{{ project['name'] }}</h2>
                         <ul class="categories">
                             {% for category in project["categories"] %}
                                 <li class="categories__tag">{{ category }}</li>
                             {% endfor %}
                         </ul>
-                        <h2 class="project-card__name">{{ project['name'] }}</h2>
                     </header>
                 </article>
             </a>
