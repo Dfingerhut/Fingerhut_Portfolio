@@ -85,12 +85,39 @@ body {
 }
 
 .header__into {
-  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;      
+  width: 80%;              
+  max-width: 900px;        
   color: #f4f6f6;
-  width: 100%;
-  text-align: center; 
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: normal;
+  margin: 0 auto; 
+  margin-bottom: 2rem;        
+}
+
+.header__skills {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.header__skill {
+  text-decoration: none;
+  color: #f4f6f6;
+  font-weight: normal;
+  background-color: #505050;
+  padding: 0.5rem 1rem; 
+  margin-right: 2.5rem;  
+  border-radius: 5px;   
+}
+
+.header__skill:last-child {
+  margin-right: 0;  
 }
 
 .projects {
@@ -120,6 +147,10 @@ body {
 
 .project-card {
   padding: 0.75rem 0;
+  background-color: #505050;
+  border-radius: 5px; 
+  margin-bottom: 1rem; 
+  height: 400px;
 }
 
 .project-card__image {
