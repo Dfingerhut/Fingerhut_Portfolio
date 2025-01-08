@@ -1,15 +1,18 @@
 {% extends "base.html" %}
 
 {% block content %}
+<section class="header__background">
+    <h2 class="header__name text-fall">Hi, I'm Drew Fingerhut</h2>
+    <p class="header__into text-fall">
+        I am an analytics professional experienced in web development and end-to-end data solutions in the manufacturing, healthcare, and consumer tech industries.
+    </p>
+    <p class = "header__skills">
+        <a class="header__skill"> PYTHON </a>
+        <a class="header__skill"> SQL </a>
+        <a class="header__skill"> TABLEAU </a>
+    </p>
+</section>
 
-<h1 class="header__into">
-   I'm an analytics professional experienced in backend web development, business intelligence, and implementing end to end data solutions across the manufacturing, healthcare, and consumer tech industries. Please explore the site to learn more!
-</h1>
-<h2 class = "header__skills">
-    <a class="header__skill"> PYTHON </a>
-    <a class="header__skill"> SQL </a>
-    <a class="header__skill"> Tableau </a>
-</h2>
 <main class="main main--home">
     <section class="projects">
         {% for project in projects %}
