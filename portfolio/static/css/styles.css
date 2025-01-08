@@ -15,6 +15,12 @@ body {
   box-sizing: border-box;
 }
 
+img {
+  -webkit-filter: grayscale(100%) contrast(90%); 
+  filter: grayscale(100%) contrast(90%);
+  border-radius: 5px; 
+}
+
 .header__background {
   background-image: url('/static/img/background_1.png');
   background-blend-mode: overlay;
@@ -293,7 +299,7 @@ body {
 .project__meta-group,
 .cta {
   padding: 1rem;
-  background-color: #00b35f5a;
+  background-color: #505050;
   border-radius: 6px;
 }
 
@@ -327,6 +333,8 @@ body {
   display: inline-block;
   height: 1rem;
   width: 1rem;
+  -webkit-filter: grayscale(100%) contrast(90%) brightness(150%); 
+  filter: grayscale(100%) contrast(90%) brightness(150%);
   background-image: url("/static/img/list-check.svg");
   background-size: contain;
   background-repeat: no-repeat;
